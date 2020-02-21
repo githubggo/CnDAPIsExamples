@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D7ComAgentClientDOTNETClient", "..\D7ComAgentClientDOTNETClient\D7ComAgentClientDOTNETClient.csproj", "{1F8CA188-9C74-442E-A391-5A3725FA95C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D7ComAgentClientDOTNETClient", "D7ComAgentClientDOTNETClient\D7ComAgentClientDOTNETClient.csproj", "{1F8CA188-9C74-442E-A391-5A3725FA95C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
