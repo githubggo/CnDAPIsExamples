@@ -48,8 +48,8 @@ namespace D7ComAgentClientDOTNETClient
 					hlp["path"] = StringToXMLAttributeValue(@"c:\temp");
 					hlp["name"] = StringToXMLAttributeValue("test.vbs");
 					var xml = hlp.xml;
-					//MessageBox.Show(xml);
-					clt.SendNelrfRecord(xml);
+					if (MessageBox.Show(xml, "SEND?", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+						clt.SendNelrfRecord(xml);
 				}
 				finally
 				{
